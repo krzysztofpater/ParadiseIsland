@@ -282,18 +282,21 @@
             <h2 class="section-heading">Kontakt</h2>
             <div class="wrapper">
 
-                <form class="contact__form">
+                <form class="contact__form" action="https://formsubmit.co/14465594bf9a844d891dea0e1b4430d6" method="POST">
 
                     <div class="contact__form-top">
                         <label for="name" class="contact__form-label">Imię i nazwisko:</label>
-                        <input type="text" class="contact__form-input" id="name">
+                        <input type="text" class="contact__form-input" id="name" name="name" required>
 
                         <label for="email" class="contact__form-label">Adres e-mail:</label>
-                        <input type="text" class="contact__form-input" id="email">
+                        <input type="text" class="contact__form-input" id="email" name="email" required>
                     </div>
 
                     <label for="msg" class="contact__form-label">Wiadomość:</label>
-                    <textarea id="msg" class="contact__form-textarea"></textarea>
+                    <textarea id="msg" class="contact__form-textarea" name="message" required></textarea>
+
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_autoresponse" value="Dziękujemy za kontakt">
 
                     <button type="submit" class="contact__form-btn btn-special-animation">Wyślij</button>
                 </form>
