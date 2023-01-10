@@ -94,6 +94,10 @@ body {
   font-size: 1.6rem;
 }
 
+.sticky-body {
+  overflow: hidden;
+}
+
 .burger-btn {
   position: fixed;
   top: 20px;

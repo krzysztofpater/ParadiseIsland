@@ -32,12 +32,14 @@ const swiper = new Swiper(".swiper", {
 
 const handleNav = () => {
 	nav.classList.toggle("nav--active");
+	document.body.classList.toggle('sticky-body');
 
 	navBtnBars.classList.remove('black-bars-color');
 
 	allNavItems.forEach((item) => {
 		item.addEventListener("click", () => {
 			nav.classList.remove("nav--active");
+			document.body.classList.remove('sticky-body');
 		});
 	});
 
