@@ -1,6 +1,6 @@
 # ParadiseIsland
 
-###A portfolio page
+### A portfolio page
 
 You can access the page at: https://krzysztofpater.github.io/ParadiseIsland/
 
